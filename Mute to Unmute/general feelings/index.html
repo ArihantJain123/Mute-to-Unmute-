@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Talk Helper</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="h1">App For Voice Disabled Persons</h1>
+      <p class="heading">Want to speak? Take help of</p>
+      <h1>Text Reader</h1>
+
+      <!-- text box section -->
+      <!-- <div id="text-box" class="text-box">
+        <h3 class="h3_voice">Choose Voice</h3>
+        <select id="voices"></select>
+        <h3 class="subheading">
+          Type want you want to speak <i class="fas fa-smile"></i>
+        </h3>
+        <textarea
+          id="text"
+          cols="30"
+          rows="10"
+          placeholder="Enter text to read"
+        ></textarea>
+        <button class="btn" id="read">Read Text</button>
+      </div> -->
+
+      <!--search input section-->
+      <form action="https://www.google.com/search" method="get" target="_black">
+        <label>Have something in mind ? search it</label>
+        <input type="text" name="q" placeholder="Search..." autocomplete="off" autofocus>
+        <button type="submit" class="input_btn"><i class="fas fa-search"></i></button>
+      </form>
+
+      <!-- description section -->
+      <button class="desc_btn">How To Use ?</button>
+      <div class="desc">
+        <div class="desc_close_div">
+          <button class="desc-close">
+            <i class="fas fa-window-close"></i>
+          </button>
+        </div>
+        <div class="desc-info">
+          <!-- <div class="box1">
+            <h3>What This App Do?</h3>
+            <p>>>This app is for peoples who have speaking disability.</p>
+            <p>
+              >> The usability of app is more focused on kids because kids not
+              able express what they want immediately. Adults can also use this
+              app.
+            </p>
+          </div> -->
+          <div class="box2">
+            <h3>How To Use This App ?</h3>
+            <p>
+              >> So there are couple of general feelings we have mentioned in
+              app. When you click on any one of them then
+              <strong>app will speak it for you.</strong>
+            </p>
+            <!-- <p>
+              >> This app contains one toggle text button which have features
+              like <strong>changing the language</strong> and
+              <strong>handling app manually</strong>.
+            </p> -->
+            <p>
+              >> Have Something In Mind ? Search It
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <!-- boxes section -->
+      <h2>Some General Feelings That You Can Express</h2>
+      <h4>Just Click One of Them, Then App Will Speak It For You</h4>
+      <main></main>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
